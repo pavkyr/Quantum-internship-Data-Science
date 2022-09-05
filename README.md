@@ -45,3 +45,8 @@ You have a dataset (internship_train.csv) that contains 53 anonymized features a
 4. readme file;
 5. requirements.txt file.
 
+**Solution ideas:**
+After the initial analysis, the data turned out to be numerical and clean (no gaps, no outliers). Before building the model, it was decided to take a closer look at the influence of features on the target. Using mutual_info_regression from sklearn.feature_selection, the 2 most important features were identified. Feature 6 turned out to be a quadratic function f(x)=x^2, while feature 7 and others were noise.
+
+To build the model, I added polynomial features using PolynomialFeatures from sklearn.preprocessing and used LinearRegression from sklearn.linear_model.
+RMSE: 0.0832.
