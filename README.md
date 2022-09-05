@@ -24,4 +24,12 @@ the problem arose with numbers greater than 10^9 because numba does not support 
 
 In an attempt to solve this problem, I implemented large number arithmetic, but even with numba, due to the large number of operations and transformations, the calculations take too long.
 
-so I decided to cheat and calculate numbers up to 10^9 in a loop, and calculate numbers greater than 10^9 using the formula N(N+1)/2.
+So I decided to cheat and calculate numbers up to 10^9 in a loop, and calculate numbers greater than 10^9 using the formula N(N+1)/2.
+
+---
+
+### Task 2 - Counting islands
+You have a matrix MxN that represents a map. There are 2 possible states on the map: 1 - islands, 0 - ocean. Your task is to calculate the number of islands in the most effective way. Please write code in Python 3.
+
+**Solution ideas:**
+The solution is based on finding the total number of connected components in the graph problem. The idea is to start breadth-first search (DFS) at each raw node and increase the number of islands. Each BFS traversal will mark all cells that make up one island as processed. So, the problem comes down to finding the total number of DFS calls.
