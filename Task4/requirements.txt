@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+os
+rasterio
+geopandas
+shapely
+cv2
+keras
+tensorflow
