@@ -61,6 +61,7 @@ Here is one of the open problems in Quantum. Soil erosion is a really unwanted p
 3. readme file;
 4. requirements.txt file;
 5. solution report.
+
 **solution report:**
 The solution to the problem was not received due to incomprehensible crashes of Google Collab. The erosion detection method in this task is entirely based on remote sensing methods and is relatively easy to use. The required data for each factor for the model can be obtained directly from the satellite imagery. The main task at the first stages is to qualitatively mark the necessary zones. The results obtained with this method will be useful to decision makers when developing future soil conservation strategies to reduce soil loss.
 To improve the result, it would be nice to have a well-filled .sp file, because a lot of values ​​are missing, we had to artificially generate new data in order to increase the sample size. The resulting .png files had different sizes, which is why they had to be reduced to the same size so that the model could work, which leads to loss of information. In my opinion, masking should be done in approximately the same size, close to a square shape.
