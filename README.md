@@ -33,3 +33,15 @@ You have a matrix MxN that represents a map. There are 2 possible states on the 
 
 **Solution ideas:**
 The solution is based on finding the total number of connected components in the graph problem. The idea is to start breadth-first search (DFS) at each raw node and increase the number of islands. Each BFS traversal will mark all cells that make up one island as processed. So, the problem comes down to finding the total number of DFS calls.
+
+---
+
+### Task 3 - Regression on the tabular data
+You have a dataset (internship_train.csv) that contains 53 anonymized features and a target column. Your task is to build model that predicts a target based on the proposed features. Please provide predictions for internship_hidden_test.csv file. Target metric is RMSE. 
+#### The main goal is to provide github repository that contains:
+1.jupyter notebook with analysis; 
+2.code for modeling (Python 3); 
+3.file with model predictions; 
+4.readme file;
+5.requirements.txt file.
+
